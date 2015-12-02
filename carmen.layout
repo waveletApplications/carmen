@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="Carmen.h" open="0" top="0" tabpos="0">
+		<Cursor position="5410" topLine="144" />
+	</File>
+	<File name="FineMesh.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="9622" topLine="391" />
+	</File>
+	<File name="Flux.cpp" open="1" top="0" tabpos="3">
+		<Cursor position="3060" topLine="104" />
+	</File>
+	<File name="Node.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="48063" topLine="1738" />
+	</File>
+	<File name="carmen.ini" open="0" top="0" tabpos="0">
+		<Cursor position="444" topLine="0" />
+	</File>
+	<File name="carmen.par" open="1" top="0" tabpos="4">
+		<Cursor position="379" topLine="13" />
+	</File>
+</CodeBlocks_layout_file>

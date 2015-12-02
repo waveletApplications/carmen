@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="carmen" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/carmen" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/carmen" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="AdaptTimeStep.cpp" />
+		<Unit filename="AddErrorL1.cpp" />
+		<Unit filename="AddErrorL2.cpp" />
+		<Unit filename="Advection.cpp" />
+		<Unit filename="AnalyticAverage.cpp" />
+		<Unit filename="BC.cpp" />
+		<Unit filename="Backup.cpp" />
+		<Unit filename="BoundaryRegion.cpp" />
+		<Unit filename="Burgers.cpp" />
+		<Unit filename="CPUTimeRef.cpp" />
+		<Unit filename="Carmen.h" />
+		<Unit filename="Cell.cpp" />
+		<Unit filename="Cell.h" />
+		<Unit filename="ComputedTolerance.cpp" />
+		<Unit filename="CurlVelocity.cpp" />
+		<Unit filename="DigitNumber.cpp" />
+		<Unit filename="FileWrite.cpp" />
+		<Unit filename="FineMesh.cpp" />
+		<Unit filename="FineMesh.h" />
+		<Unit filename="Flux.cpp" />
+		<Unit filename="GetBoundaryCells.cpp" />
+		<Unit filename="InitAverage.cpp" />
+		<Unit filename="InitTimeStep.cpp" />
+		<Unit filename="InitTree.cpp" />
+		<Unit filename="Limiter.cpp" />
+		<Unit filename="Makefile" />
+		<Unit filename="Matrix.cpp" />
+		<Unit filename="Matrix.h" />
+		<Unit filename="MinAbs.cpp" />
+		<Unit filename="MoveGauss.cpp" />
+		<Unit filename="Node.cpp" />
+		<Unit filename="Node.h" />
+		<Unit filename="NormMaxQuantities.cpp" />
+		<Unit filename="Parallel.cpp" />
+		<Unit filename="Parameters.cpp" />
+		<Unit filename="Parameters.h" />
+		<Unit filename="Performance.cpp" />
+		<Unit filename="PreProcessor.h" />
+		<Unit filename="PrintGrid.cpp" />
+		<Unit filename="PrintGrid.h" />
+		<Unit filename="PrintIntegral.cpp" />
+		<Unit filename="RadiationRate.cpp" />
+		<Unit filename="ReactionRate.cpp" />
+		<Unit filename="RefreshTree.cpp" />
+		<Unit filename="Remesh.cpp" />
+		<Unit filename="SchemeAUSM.cpp" />
+		<Unit filename="SchemeAUSMDV.cpp" />
+		<Unit filename="SchemeCentered.cpp" />
+		<Unit filename="SchemeENO2.cpp" />
+		<Unit filename="SchemeENO3.cpp" />
+		<Unit filename="SchemeMcCormack.cpp" />
+		<Unit filename="SchemeOsmp3Mc.cpp" />
+		<Unit filename="SchemeOsmp5Mc.cpp" />
+		<Unit filename="SchemeRoe.cpp" />
+		<Unit filename="ShowTime.cpp" />
+		<Unit filename="Sign.cpp" />
+		<Unit filename="SignJacobian.cpp" />
+		<Unit filename="Smagorinsky.cpp" />
+		<Unit filename="Source.cpp" />
+		<Unit filename="Step.cpp" />
+		<Unit filename="Sutherland.cpp" />
+		<Unit filename="TimeAverageGrid.cpp" />
+		<Unit filename="TimeAverageGrid.h" />
+		<Unit filename="TimeEvolution.cpp" />
+		<Unit filename="Timer.cpp" />
+		<Unit filename="Timer.h" />
+		<Unit filename="Vector.cpp" />
+		<Unit filename="Vector.h" />
+		<Unit filename="View.cpp" />
+		<Unit filename="ViewEvery.cpp" />
+		<Unit filename="ViewIteration.cpp" />
+		<Unit filename="ViscousFlux.cpp" />
+		<Unit filename="carmen.bc" />
+		<Unit filename="carmen.evt" />
+		<Unit filename="carmen.gra" />
+		<Unit filename="carmen.grb" />
+		<Unit filename="carmen.grc" />
+		<Unit filename="carmen.grd" />
+		<Unit filename="carmen.grf" />
+		<Unit filename="carmen.ini" />
+		<Unit filename="carmen.mak" />
+		<Unit filename="carmen.net" />
+		<Unit filename="carmen.par" />
+		<Unit filename="carmen.pbs" />
+		<Unit filename="carmen.pen" />
+		<Unit filename="carmen.pre" />
+		<Unit filename="carmen.prf" />
+		<Unit filename="carmen.rcv" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

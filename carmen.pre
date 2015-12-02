@@ -1,0 +1,39 @@
+
+
+//***************User postrocessing parameters***********************************
+
+//*********Uncomment next lines for parallel computation with threads*************
+
+//#define MULTITHREAD
+#define NTHREAD 4
+
+
+//*********Uncomment next line for double precision (8 bytes) FP computation*****
+
+#define DOUBLE_PRECISION
+
+//*********Uncomment next line for debug compilation*****
+
+//#define DEBUG
+
+//************Uncomment next line for the SP-SMP cluster*************************
+//************Default parallel computer is XC1***********************************
+// #define SP_SMP
+
+//************Uncomment next line for the parallel computations with MPI*********
+// #define PARMPI
+//*******************************************************************************
+
+
+
+
+
+
+
+
+
+
+
+//*********Do NOT touch next line!!!*********************************************
+#define XYZ987  //It is the marker to prevent multiple insertion
+//*******************************************************************************

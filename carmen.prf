@@ -1,0 +1,16 @@
+Dimension             :            3
+Iterations            :           27
+Scales (max)          :            6
+Cells (max)           :       262144
+Solver                :           FV
+Time accuracy order   :            2
+Time step             : 1.056443e-02 s
+Physical time         : 2.852396e-01 s
+CPU time (s)          : 1.265900e+02 s
+CPU time / it. x pt   : 1.788528e-05 s
+Leaf compression      :   100.000000 % 
+Memory compression    :   100.000000 % 
+CPU compression       :   100.000000 % 
+
+CPU time :  2 min  6 s
+

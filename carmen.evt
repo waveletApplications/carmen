@@ -1,0 +1,4 @@
+carmen: image creation OK.
+carmen: animate images.
+animate: unable to open image `/home/margarete/Desktop/M2P2/CFL80/L7/NEW-MAY/MRL7EM3/Q1I*':  @ error/blob.c/OpenBlob/2498.
+animate: no decode delegate for this image format `/home/margarete/Desktop/M2P2/CFL80/L7/NEW-MAY/MRL7EM3/Q1I*' @ error/constitute.c/ReadImage/532.
