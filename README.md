@@ -1,2 +1,2 @@
 # carmen
-adaptive multirresolution code  
+Adaptive Multiresolution Code
